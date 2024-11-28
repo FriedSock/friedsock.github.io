@@ -8,6 +8,8 @@
 <body>
     <h1>Simple Form</h1>
     <form action="/submit" method="POST">
+      <div>
+        <h2>About you</h2>
         <label for="firstname">First Name:</label><br>
         <input type="text" id="user_firstname" name="user[firstname]" placeholder="First Name" autocomplete="given-name" required><br><br>
 
@@ -16,6 +18,7 @@
 
         <label for="postcode">Postcode:</label><br>
         <input type="text" id="user_postcode" name="user[postcode]" placeholder="Postcode" required><br><br>
+      </div>
 
         <label for="password">Password:</label><br>
         <input type="password" id="user_password" name="user[password]" required><br><br>
