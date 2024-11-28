@@ -9,16 +9,16 @@
     <h1>Simple Form</h1>
     <form action="/submit" method="POST">
         <label for="first-name">First Name:</label><br>
-        <input type="text" id="first-name" name="first_name"><br><br>
+        <input type="text" id="first-name" name="user[first_name]"><br><br>
 
         <label for="last-name">Last Name:</label><br>
-        <input type="text" id="last-name" name="last_name"><br><br>
+        <input type="text" id="last-name" name="user[last_name]"><br><br>
 
         <label for="postcode">Postcode:</label><br>
-        <input type="text" id="postcode" name="postcode"><br><br>
+        <input type="text" id="postcode" name="user[postcode]"><br><br>
 
         <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br><br>
+        <input type="password" id="password" name="user[password]"><br><br>
 
         <button type="submit">Submit</button>
     </form>
