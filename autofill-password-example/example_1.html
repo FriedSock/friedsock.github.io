@@ -8,17 +8,15 @@
 <body>
     <h1>Finish your account setup</h1>
     <form action="/submit" method="POST">
-      <div>
-        <h2>About you</h2>
-        <label for="firstname">First Name:</label><br>
-        <input type="text" id="user_firstname" name="user[firstname]" placeholder="First Name" autocomplete="given-name" required tabindex="1"><br><br>
+      <h2>About you</h2>
+      <label for="firstname">First Name:</label><br>
+      <input type="text" id="user_firstname" name="user[firstname]" placeholder="First Name" autocomplete="given-name" required tabindex="1"><br><br>
 
-        <label for="last-name">Last Name:</label><br>
-        <input type="text" id="user_lastname" name="user[lastname]" placeholder="Last name" required tabindex="2"><br><br>
+      <label for="last-name">Last Name:</label><br>
+      <input type="text" id="user_lastname" name="user[lastname]" placeholder="Last name" required tabindex="2"><br><br>
 
-        <label for="postcode">Postcode:</label><br>
-        <input type="text" id="user_postcode" name="user[postcode]" placeholder="Postcode" required tabindex="3"><br><br>
-      </div>
+      <label for="postcode">Postcode:</label><br>
+      <input type="text" id="user_postcode" name="user[postcode]" placeholder="Postcode" required tabindex="3"><br><br>
 
       <input type="hidden" name="email" value="user@example.com", tabindex="-1">
       <h2>Password</h2>
